@@ -5,7 +5,7 @@ As part of one of my master projects a software environment was developed to exa
 
 The result is the Python library **Dymola Reinforcement Learning (dymrl)** which allows you to explore reinforcement learning algorithms for dynamical systems.
 
-The code of this project can be found at [github](https://github.engineering.zhaw.ch/eyyi/dymrl). 
+The code of this project can be found at [github](https://github.com/eyyi/dymrl). 
 
 ### What is reinforcement learning?
 A good and compact definition of reinforcement learning is given by Csaba Szepesv: 
