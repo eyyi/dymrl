@@ -108,3 +108,7 @@ pip-selfcheck.json
 
 # User-specific stuff:
 .idea/
+<<<<<<< HEAD
+=======
+examples/__init__.py
+>>>>>>> c306d9b3b8535a422334862057210ef4c008e518
