@@ -1,4 +1,4 @@
-##OpenAI Gym environment for Modelica models 
+##OpenaI Gym environment for Modelica models 
 In this blog post I will show how to combine dynamic models from [Modelica](https://www.modelica.org/) with reinforcement learning.
 
 As part of one of my master projects a software environment was developed to examine reinforcement learning algorithms on existing dynamic models from Modelica in order to solve control tasks. Modelica is a non-proprietary, object-oriented, equation based language to conveniently model complex physical systems [1].
@@ -60,7 +60,7 @@ The library dymrl provides a basic implementation of an environment in OpenAI. T
 For a specific problem you have to derive the `DymolaEnv` class and define your observation and action space. Fortunately, OpenAI gym offers two convenient space objects. First a `Discrete` space, which allows to represent a fixed range of numbers. A `Box`space represents a n-dimensional box. 
 
 So our next step is to derive a new class, called `DymolaInvertedPendulumEnv`, from the `DymolaEnv` class, and define an action and observation space. 
-Consider that we only want two actions (-1, +1), so we choose a `Diskrete` actionspace with two possible values. Furthermore, we only want to observe positions between [-2.4, 2.4] and angles between [-12°, 12°], so we choose a `Box` space for our observation space. 
+Consider that we only want two actions (-1, +1), so we choose a `Diskrete` action space with two possible values. Furthermore, we only want to observe positions between [-2.4, 2.4] and angles between [-12°, 12°], so we choose a `Box` space for our observation space. 
  
 * DymolaInvertedPendulumEnv:
 
