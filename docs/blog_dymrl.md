@@ -14,7 +14,7 @@ A good and compact definition of reinforcement learning is given by Csaba Szepes
 
 
 ### Dymola Reinforcement Learning (dymrl)
-*Dymola Reinforcement Learning* is a library to examine reinforcement learning algorithms on dynamic models. 
+**Dymola Reinforcement Learning** is a library to examine reinforcement learning algorithms on dynamic models. 
 It consists of a new **OpenAI Gym** environment with a Python interface to actuate simulations in [Dymola](http://www.modelon.com/products/dymola/). Dymola is a simulation tool based on the Modelica open standard.
 
 OpenAI Gym is a toolkit for developing and comparing reinforcement learning algorithms [3]. The toolkit has implemented the classic "agent-environment loop". For each time step, the agent chooses an action, and the environment returns an observation and a reward. 
