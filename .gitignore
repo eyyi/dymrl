@@ -107,15 +107,5 @@ pyvenv.cfg
 pip-selfcheck.json
 
 # User-specific stuff:
-.idea/*
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/dictionaries
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
-.idea/dymrl.iml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/modules.xml
-
+.idea/
 examples/__init__.py
