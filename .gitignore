@@ -112,3 +112,9 @@ pip-selfcheck.json
 .idea/dictionaries
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
+.idea/dymrl.iml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+docs/img/
+examples/__init__.py
