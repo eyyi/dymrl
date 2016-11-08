@@ -98,7 +98,7 @@ For our task, we used the simple table-based Q-Learning algorithm. This algorith
 
 To create a new agent, you have to load the new environment and implement an algorithm. In the Folder `./examples/agents/` you can find an example agent. 
 
-A clear understandable of Q-Learning can be found on [Carlos Aguayo](from https://gym.openai.com/algorithms/alg_0eUHoAktRVWWM7ZoDBWQ9w).
+A understandable implemenation of Q-Learning is given by given by [Carlos Aguayo](https://gym.openai.com/algorithms/alg_0eUHoAktRVWWM7ZoDBWQ9w).
 
 ### Conclusion
 
