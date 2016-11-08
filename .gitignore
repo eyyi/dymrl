@@ -116,5 +116,5 @@ pip-selfcheck.json
 .idea/encodings.xml
 .idea/misc.xml
 .idea/modules.xml
-docs/img/
+
 examples/__init__.py
