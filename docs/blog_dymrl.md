@@ -31,7 +31,7 @@ This communication has been realized with Functional Mockup Interface for co-sim
 The library **dymrl** has been tested on the classical control task problem **Cart Pole**. The configuration (action, observation and rewards) was taken from the example of OpenAI Gym ([Example](<https://gym.openai.com/docs>)). 
 
 ##### Cart pole problem
->The objective of this tasks is to apply forces to a cart moving along a frictionless track so as to keep a pole hinged to the cart from failling over [5]. The system is controlled by applying a force of +1 or -1 to the cart. For every timestep that the pole is not more than 12 degreee from the vertical or the cart moves not more than 2.4 units from the center, a reward of +1 is provided [6]. 
+>The objective of this tasks is to apply forces to a cart moving along a frictionless track so as to keep a pole hinged to the cart from failling over [5]. The system is controlled by applying a force of +1 or -1 to the cart. For every timestep that the pole is not more than 12 degreee from the vertical or the cart moves not more than 2.4 units from the center, a reward of +1 is provided. 
 
 ![cart pole model](./img/cart_pole.png)
 
