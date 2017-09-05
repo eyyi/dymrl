@@ -1,4 +1,4 @@
-##OpenaI Gym environment for Modelica models 
+## OpenaI Gym environment for Modelica models 
 In this blog post I will show how to combine dynamic models from [Modelica](https://www.modelica.org/) with reinforcement learning.
 
 As part of one of my master projects a software environment was developed to examine reinforcement learning algorithms on existing dynamic models from Modelica in order to solve control tasks. Modelica is a non-proprietary, object-oriented, equation based language to conveniently model complex physical systems [1].
