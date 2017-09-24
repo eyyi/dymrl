@@ -1,4 +1,4 @@
-##Installation instructions
+## Installation instructions
 ### 0. Prerequisite
 * Ubuntu Linux 32 Bit (64 Bit not tested)
 * Dymola 2017 (DYMOLA_2017_AllLinux.zip)
