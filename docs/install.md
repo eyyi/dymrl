@@ -13,7 +13,8 @@
 	//32 Bit Complications 
 	 sudo apt-get install g++-multilib libc6-dev-i386
 
-### 1. Install Python and Python modules
+
+### 1. Install Python and Python modules
 ###### Install Python (global):
 	sudo apt-get update	
 	sudo apt-get install python3-pip python3-dev python-virtualenv
@@ -39,7 +40,7 @@
 	sudo pip3 install --upgrade pytest
 	sudo pip3 install --upgrade Cython
 
-### 2. Install PyFMI
+### 2. Install PyFMI
 ######  Create working dir:
 	mkdir pyfmi
 
@@ -107,16 +108,16 @@
 * [askubuntu](http://askubuntu.com/questions/521145/how-to-install-oracle-java-on-ubuntu-14-04)
 
 ### 5. Install Dymola
-###### Install Dymola: 
+###### Install Dymola: 
 	cd /opt
 	sudo unzip DYMOLA_2017_AllLinux.zip -d DYMOLA_2017
 	cd DYMOLA_2017/linux_x86_64/
 	sudo alien -i -k dymola-2017.1-1.x86_64.rpm
 
-###### Source: 
+###### Source: 
 * [Dymola](http://www.3ds.com/products-services/catia/products/dymola/linux/)
 
-###### Configure Dymola: Add to environment variables to .bashrc:
+###### Configure Dymola: Add to environment variables to .bashrc:
 
 	export MODELICAPATH=${MODELICAPATH}:/usr/local/Modelica/Library/
 	export DYMOLA=/opt/dymola  	
