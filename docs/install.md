@@ -131,9 +131,10 @@
 ### Optional: Install pycharm cumminity edition
 * Download source [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux)
 
-		sudo cp pycharm-community-2016.1.2.tar.gz /opt/`
-		sudo tar -xf pycharm-community-2016.1.2.tar.gz `
-		sudo rm pycharm-community-2016.1.2.tar.gz ./pycharm-community-2016.1.2/bin/pycharm.sh` 
+		sudo cp pycharm-community-2016.1.2.tar.gz /opt/
+		sudo tar -xzvf /opt/pycharm-community-2016.1.2.tar.gz -C /opt
+		sudo rm /opt/pycharm-community-2016.1.2.tar.gz 
+		./pycharm-community-2016.1.2/bin/pycharm.sh
 		
 * Run PyCharm:
 	
