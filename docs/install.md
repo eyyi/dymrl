@@ -52,6 +52,9 @@
 	sudo mkdir build-fmilib && cd build-fmilib
 	sudo cmake -DFMILIB_INSTALL_PREFIX=../install ../
 	sudo make install test
+
+If the FMILibrary zip file is unavailable, it is hosted at the following [SVN repo](https://svn.jmodelica.org/FMILibrary/tags/2.0.2b3/)
+
 ###### Install Sundials:
 	cd ~/pyfmi
 	sudo wget http://computation.llnl.gov/projects/sundials-suite-nonlinear-differential-algebraic-equation-solvers/download/sundials-2.4.0.tar.gz
