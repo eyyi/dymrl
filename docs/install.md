@@ -71,8 +71,8 @@
 	cd ~/pyfmi
 	sudo wget https://pypi.python.org/packages/66/60/26664b2b2cad4a7fae409214e2f8901177322d78bfb11ef61e580115c9b8/PyFMI-2.3.1.zip#md5=577829ee1ee83fbb8c28ddf4b82aa4ee
 	sudo unzip PyFMI-2.3.1.zip
-	sud	
-	sudo python3 setup.py install --fmil-home=/home/yourusername/pyfmi/FMILibrary-2.0b3/install/
+	cd PyFMI-2.3.1
+	sudo python3 setup.py install --fmil-home=/home/yourusername/pyfmi/FMILibrary-2.0.2b3/install/
 	
 
 
