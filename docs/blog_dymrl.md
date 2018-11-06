@@ -24,7 +24,7 @@ OpenAI Gym is a toolkit for developing and comparing reinforcement learning algo
 ![agent-environment-loop](./img/rl_loop_dymrl.png)
 
 The primary challenge has been to find a fast and stable way to communicate with the simulation tool.
-This communication has been realized with Functional Mockup Interface for co-simulation (FMI). The FMI co-simulation returns for a given internal state, an input and a step size of a model the output at a time. For the OpenAI Gym environment the advancement of the states and time is completely hidden [4]. A component which implements the interface is called Functional Mockup Unit (FMU). A list of FMI supported simulation tools can be found on [FMI Support in Tools](https://www.fmi-standard.org/tools). For loading and interacting with Functional Mock-Up Untis (FMUs) in Python we used [PyFMI](https://pypi.python.org/pypi/PyFMI).
+This communication has been realized with Functional Mockup Interface for co-simulation (FMI). The FMI co-simulation returns for a given internal state, an input and a step size of a model the output at a time. For the OpenAI Gym environment the advancement of the states and time is completely hidden [4]. A component which implements the interface is called Functional Mockup Unit (FMU). A list of FMI supported simulation tools can be found on [FMI Support in Tools](https://www.fmi-standard.org/tools). For loading and interacting with Functional Mock-Up Units (FMUs) in Python we used [PyFMI](https://pypi.python.org/pypi/PyFMI).
 
 
 ### Tutorial: Solving Cart Pole problem
